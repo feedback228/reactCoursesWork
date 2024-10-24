@@ -11,8 +11,20 @@ export const JobBlock = () => {
                 <div className="flex justify-between items-center w-full">
                     <h3 className="text-3xl font-bold">Job Title</h3>
                     <div className="flex gap-2">
-                        <img className='hidden 500:flex cursor-pointer' src={eyeOff} alt="" />
-                        <img className='hidden 500:flex cursor-pointer' src={heart} alt="" />
+                        <div className="flex justify-center items-center rounded-lg hover:bg-[#717389] transition duration-300 w-8 h-8">
+                            <img
+                                className="hidden 500:flex cursor-pointer"
+                                src={eyeOff}
+                                alt=""
+                            />
+                        </div>
+                        <div className="flex justify-center items-center rounded-lg hover:bg-[#717389] transition duration-300 w-8 h-8">
+                            <img
+                                className="hidden 500:flex cursor-pointer hover:bg-[#717389] transition duration-300"
+                                src={heart}
+                                alt=""
+                            />
+                        </div>
                     </div>
                 </div>
                 <div className="flex justify-between items-center w-full">
@@ -20,17 +32,17 @@ export const JobBlock = () => {
                     <div className="flex items-center gap-2">
                         <Btn
                             title="Python"
-                            className="!bg-black border-solid	border-[0.063rem] border-[#717389]"
+                            className="bg-black border-solid	border-[0.063rem] border-[#717389]  hover:bg-[#717389] transition duration-300"
                             pClassName="!text-white"
                         />
                         <Btn
                             title="Without experience"
-                            className=" hidden 500:flex !bg-black border-solid	border-[0.063rem] border-[#717389]"
+                            className="bg-black border-solid	border-[0.063rem] border-[#717389]  hover:bg-[#717389] transition duration-300"
                             pClassName="!text-white"
                         />
                         <Btn
                             title="..."
-                            className="flex 500:hidden bg-black border-solid	border-[0.063rem] border-[#717389]"
+                            className="flex 500:hidden bg-black border-solid	border-[0.063rem] border-[#717389] hover:bg-[#717389] transition duration-300"
                             pClassName="!text-white"
                         />
                     </div>
@@ -40,11 +52,11 @@ export const JobBlock = () => {
                 <div className="flex items-center gap-4">
                     <img src={avaJob} alt="" />
                     <div>
-                        <p className='text-sm'>Company</p>
-                        <p className='text-sm'>Bangladesh</p>
+                        <p className="text-sm">Company</p>
+                        <p className="text-sm">Bangladesh</p>
                     </div>
                 </div>
-                <Btn title="Respond" />
+                <Btn title="Respond"  className='hover:bg-[#00bcd4] transition duration-300' />
             </div>
         </div>
     );

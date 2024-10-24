@@ -19,10 +19,10 @@ export const SearchFilterBlock = () => {
             />
            <div className='flex flex-col tablet:flex-row gap-6 items-start'>
                 <div className="flex gap-2">
-                    <Btn title="Filters" img={icon} />
+                    <Btn title="Filters" img={icon} className='hover:bg-[#00bcd4] transition duration-300' />
                     <Btn
                         title="Sorting"
-                        className="!bg-black border-solid	border-[0.063rem] border-[#717389]"
+                        className="bg-black border-solid	border-[0.063rem] border-[#717389]  hover:bg-[#717389] transition duration-300"
                         pClassName="!text-white"
                         img={icon2}
                     />
@@ -30,25 +30,25 @@ export const SearchFilterBlock = () => {
                 <div className=" flex flex-wrap	tablet:flex gap-2 items-center">
                     <Btn
                         title="Backend"
-                        className="!bg-black border-solid	border-[0.063rem] border-[#717389] "
+                        className="bg-black border-solid	border-[0.063rem] border-[#717389]  hover:bg-[#717389] transition duration-300"
                         pClassName="!text-white"
                         img={icon3}
                     />
                     <Btn
                         title="Python"
-                        className="!bg-black border-solid	border-[0.063rem] border-[#717389] " 
+                       className="bg-black border-solid	border-[0.063rem] border-[#717389]  hover:bg-[#717389] transition duration-300"
                         pClassName="!text-white"
                         img={icon3}
                     />
                     <Btn
                         title="SQL"
-                        className="!bg-black border-solid	border-[0.063rem] border-[#717389] "
+                  className="bg-black border-solid	border-[0.063rem] border-[#717389]  hover:bg-[#717389] transition duration-300"
                         pClassName="!text-white"
                         img={icon3}
                     />
                     <Btn
                         title="Work experience (1-3 year)"
-                        className="!bg-black border-solid	border-[0.063rem] border-[#717389] max-w-[15.8rem]"
+                       className="bg-black border-solid	border-[0.063rem] border-[#717389]  hover:bg-[#717389] transition duration-300"
                         pClassName="!text-white"
                         img={icon3}
                     />

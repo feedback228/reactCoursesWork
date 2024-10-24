@@ -36,15 +36,15 @@ export const Slayder: React.FC = () => {
             <div className="splide">
                 <div className="splide__track">
                     <ul className="splide__list">
-                        <li className="splide__slide"><CoursesBlock h3='Courses 1' /></li>
-                        <li className="splide__slide"><CoursesBlock h3='Courses 2' /></li>
-                        <li className="splide__slide"><CoursesBlock h3='Courses 3' /></li>
-                        <li className="splide__slide"><CoursesBlock h3='Courses 4' /></li>
-                        <li className="splide__slide"><CoursesBlock h3='Courses 5' /></li>
-                        <li className="splide__slide"><CoursesBlock h3='Courses 6' /></li>
-                        <li className="splide__slide"><CoursesBlock h3='Courses 7' /></li>
-                        <li className="splide__slide"><CoursesBlock h3='Courses 8' /></li>
-                        <li className="splide__slide"><CoursesBlock h3='Courses 9' /></li>
+                        <li className="splide__slide"><CoursesBlock h3='Courses 1' link='/kek/lul' /></li>
+                        <li className="splide__slide"><CoursesBlock h3='Courses 2' link='/kek/lul' /></li>
+                        <li className="splide__slide"><CoursesBlock h3='Courses 3' link='/kek/lul' /></li>
+                        <li className="splide__slide"><CoursesBlock h3='Courses 4' link='/kek/lul' /></li>
+                        <li className="splide__slide"><CoursesBlock h3='Courses 5' link='/kek/lul' /></li>
+                        <li className="splide__slide"><CoursesBlock h3='Courses 6' link='/kek/lul' /></li>
+                        <li className="splide__slide"><CoursesBlock h3='Courses 7' link='/kek/lul' /></li>
+                        <li className="splide__slide"><CoursesBlock h3='Courses 8' link='/kek/lul' /></li>
+                        <li className="splide__slide"><CoursesBlock h3='Courses 9' link='/kek/lul' /></li>
                     </ul>
                 </div>
                 <div className="splide__arrows absolute top-1/2 transform -translate-y-1/2 w-full justify-end hidden">

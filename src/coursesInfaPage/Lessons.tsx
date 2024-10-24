@@ -11,7 +11,6 @@ export const Lessons = () => {
                 </div>
             </div>
             <div className="flex flex-col gap-4">
-                <LessonBlock num='1' title="Hello, Python"  description="A quick introduction to Python synatx, variable assignment, and numbers" />
                 <LessonBlock num='2' title="Functions and Getting Help"  description="Calling functions and defining our own, and using Python's builtin documentation" />
                 <LessonBlock num='3' title="Booleans and Conditionals"  description="Using booleans for branching logic" />
                 <LessonBlock num='4' title="Lists"  description="Lists and the things you can do with them. Includes indexing, slicing and mutating" />

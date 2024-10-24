@@ -8,17 +8,17 @@ export const RecCourses = () => {
             <SearchFilterBlock />
             <div className="grid grid-cols-1 700:grid-cols-3 1000:grid-cols-4 gap-4 1200:grid-cols-6">
                 <CoursesBlock h3="Courses 1" link='lul' />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
-                <CoursesBlock h3="Courses 1" />
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
+                <CoursesBlock h3="Courses 1"  link='lul'/>
             </div>
         </div>
     );

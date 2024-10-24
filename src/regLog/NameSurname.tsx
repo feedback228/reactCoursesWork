@@ -30,7 +30,7 @@ export const NameSurname: React.FC<NameSurnameProps> = (props) => {
             <BtnRegLog
                 handleNext={props.handleNext}
                 title="Continue"
-                className="bg-[#00BCD4]"
+                className="bg-[#008ea1] transition duration-300 hover:bg-[#00bcd4] "
             />
         </div>
     );

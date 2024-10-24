@@ -28,7 +28,7 @@ export const SingIn: React.FC<SingInProps> = (props) => {
                 handleNext={handleDone} 
                 asLink={true} to="/lol"
                 title="Done"
-                className="bg-[#00BCD4]"
+                 className="bg-[#008ea1] transition duration-300 hover:bg-[#00bcd4] "
             />
         </div>
     );

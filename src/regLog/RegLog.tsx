@@ -14,7 +14,7 @@ export const RegLog: React.FC<RegLogProps> = (props) => {
             <h2 className="text-5xl font-bold leading-[3.75rem]	">Upgrade your brain...</h2>
             <div className="flex flex-col gap-2 max-w-[25.5rem] w-full">
                 <button
-                    className="bg-[#00BCD4] w-full rounded-lg h-10"
+                    className="bg-[#008ea1] transition duration-300 hover:bg-[#00bcd4] w-full rounded-lg h-10"
                     onClick={props.handleSignIn} 
                 >
                     Sign In

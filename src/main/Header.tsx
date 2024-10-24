@@ -90,7 +90,7 @@ export const Header: React.FC<HeaderProps> = () => {
                             className={`flex justify-center items-center bg-white h-10 rounded-lg px-[0.5rem] gap-[.625rem] min-w-10 tablet:min-w-[100px] hover:bg-[#00bcd4] transition duration-300 ${
                                 activeIndex === 4 ? 'bg-[#00bcd4]' : ''
                             }`}
-                            onClick={() => handleClick(4)} // Set active index for profile button
+                            onClick={() => handleClick(4)} 
                         >
                             <img src={profileIcon} alt="Profile" />
                             <p className="text-black font-medium text-base hidden tablet:flex">

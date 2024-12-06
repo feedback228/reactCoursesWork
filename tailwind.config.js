@@ -1,19 +1,88 @@
-/** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    screens: {
-      'tablet': '900px',
-      '1000': '1000px',
-      '1200': '1200px',
-      '700': '700px',
-      '500': '500px',
+    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+    safelist: ['border-b-2', 'border-gray-300'],
+    theme: {
+        screens: {
+            tablet: '900px',
+            1000: '1000px',
+            1200: '1200px',
+            700: '700px',
+            500: '500px',
+        },
+        extend: {
+            colors: {
+                blue: '#4DD0E1',
+                hoverBlue: '#00BCD4',
+				darkBlue: '#0097A7',
+                blackBlue: '#303240',
+                gray: '#717389',
+                lightGray: '#A5A7B1',
+                ultraLigthGray: '#E4E5ED',
+                green: '#98E698',
+            },
+            borderWidth: {
+				'0': '0',
+                '0.063rem': '0.063rem',
+                '.0625rem': '.0625rem',
+            },
+            width: {
+                '1.5rem': '1.5rem',	
+            },
+            height: {
+                '1.5rem': '1.5rem',
+                '7.375rem': '7.375rem',
+                '15rem': '15rem',
+                '8rem': '8rem',
+                '21.875rem': '21.875rem',
+            },
+            maxWidth: {
+				'full': '100%',
+				'5.25rem': '5.25rem',
+                '8.125rem': '8.125rem',
+                '13rem': '13rem',
+                '14rem': '14rem',
+                '15rem': '15rem',
+                '17rem': '17rem',
+                '18rem': '18rem',
+                '20.75rem': '20.75rem',
+                '23rem': '23rem',
+                '26.5rem': '26.5rem',
+                '27rem': '27rem',
+                '36rem': '36rem',
+                '37rem': '37rem',
+                '40rem': '40rem',
+                '116rem': '116rem',
+                '119rem': '119rem',
+				'120rem': '120rem',
+            },
+            gap: {
+                '0.5rem': '0.5rem',
+                '1rem': '1rem',
+                '7.5rem': '7.5rem',
+                '4.5rem': '4.5rem',
+				'.625rem': '.625rem',
+            },
+			padding: {
+				'0': '0',
+				'0.5rem': '0.5rem',
+                '1rem': '1rem',
+				'4rem': '4rem',
+				'4.5rem': '4.5rem',
+				'7.5rem': '7.5rem',
+			},
+			fontSize: {
+                '.75rem': '.75rem',
+                '.875rem': '.875rem',
+                '1rem': '1rem',
+                '1.125rem': '1.125rem',
+				'1.25rem': '1.25rem',
+				'1.5rem': '1.5rem',
+				'2.5rem': '2.5rem',
+			},
+			inset: {
+				'2.375rem': '2.375rem',
+			}
+        },
     },
-    extend: {
-    },
-  },
-  plugins: [],
-}
+    plugins: [],
+};
